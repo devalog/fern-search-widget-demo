@@ -1,16 +1,19 @@
-# React + Vite
+# Fern Search Widget Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A demo React app showing how to embed the [@fern-api/search-widget](https://www.npmjs.com/package/@fern-api/search-widget) into a non-docs application. Built with Vite + React 19.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+git clone https://github.com/devalog/fern-search-widget-demo.git
+cd fern-search-widget-demo
+npm install
+npm run dev
+```
 
-## React Compiler
+Then open http://localhost:5173 in your browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Usage
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Click the search bar in the top nav (or press `Cmd+K` / `Ctrl+K`) to open the Fern AI-powered search modal.
+- The search queries the [Fern documentation](https://buildwithfern.com/learn).
