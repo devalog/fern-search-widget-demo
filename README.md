@@ -2,7 +2,9 @@
 
 A demo React app showing how to embed the [@fern-api/search-widget](https://www.npmjs.com/package/@fern-api/search-widget) into a non-docs application. Built with Vite + React 19.
 
-## Getting Started
+**Live demo:** https://devinlogan.org/fern-search-widget-demo/
+
+## Run Locally
 
 ```bash
 git clone https://github.com/devalog/fern-search-widget-demo.git
